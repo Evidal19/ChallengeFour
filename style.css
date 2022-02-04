@@ -1,0 +1,101 @@
+:root{
+  background-color: tan;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.flex-column {
+  display: flex; 
+  flex-direction: column;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+button {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: green;
+  border: 3px double whitesmoke;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 150px;
+  height: 60px;
+}
+
+
+#result {
+    display: none;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5.4rem;
+}
+
+#time{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+  color: whitesmoke;
+  text-shadow: .5px .5px black;
+  text-align: center;
+}
+
+#gameover {
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+p{
+  color: black;
+  text-shadow: .5px .5px white;
+  text-align: center;
+}
+
+#startbtn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 white;
+  transition: transform 150ms;
+  transform: scale(1.03)
+}
+
+#startPageHighscore:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 white;
+  transition: transform 150ms;
+  transform: scale(1.03)
+}
+
+#tryAgainBtn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 white;
+  transition: transform 150ms;
+  transform: scale(1.03)
+}
+
+#startbtn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+#tryAgainBtn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+#startPageHighscoreBtn [disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+#question-card{
+  display: none;
+}
